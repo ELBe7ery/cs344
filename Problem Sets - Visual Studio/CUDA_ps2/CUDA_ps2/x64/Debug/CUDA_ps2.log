@@ -1,0 +1,23 @@
+﻿  
+  F:\Self learning\Parallel Processing\Udacity_Intro\cs344\Problem Sets - Visual Studio\CUDA_ps2\CUDA_ps2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\student_func.cu.obj "F:\Self learning\Parallel Processing\Udacity_Intro\cs344\Problem Sets - Visual Studio\CUDA_ps2\CUDA_ps2\student_func.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  student_func.cu
+  Compiling CUDA source file student_func.cu...
+  
+  F:\Self learning\Parallel Processing\Udacity_Intro\cs344\Problem Sets - Visual Studio\CUDA_ps2\CUDA_ps2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\student_func.cu.obj "F:\Self learning\Parallel Processing\Udacity_Intro\cs344\Problem Sets - Visual Studio\CUDA_ps2\CUDA_ps2\student_func.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  student_func.cu
+F:/Self learning/Parallel Processing/Udacity_Intro/cs344/Problem Sets - Visual Studio/CUDA_ps2/CUDA_ps2/student_func.cu(248): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  reference_calc.cpp
+f:\self learning\parallel processing\udacity_intro\cs344\problem sets - visual studio\cuda_ps2\cuda_ps2\reference_calc.cpp(33): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+  main.cpp
+  HW2.cpp
+f:\self learning\parallel processing\udacity_intro\cs344\problem sets - visual studio\cuda_ps2\cuda_ps2\hw2.cpp(108): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  compare.cpp
+  Generating Code...
+  CUDA_ps2.vcxproj -> F:\Self learning\Parallel Processing\Udacity_Intro\cs344\Problem Sets - Visual Studio\CUDA_ps2\x64\Debug\CUDA_ps2.exe
+  CUDA_ps2.vcxproj -> F:\Self learning\Parallel Processing\Udacity_Intro\cs344\Problem Sets - Visual Studio\CUDA_ps2\x64\Debug\CUDA_ps2.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "F:\Self learning\Parallel Processing\Udacity_Intro\cs344\Problem Sets - Visual Studio\CUDA_ps2\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

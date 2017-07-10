@@ -1,0 +1,7 @@
+﻿  main.cpp
+f:\c-sharp projects\cuda_ps2\cuda_ps2\hw2.cpp(1): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+  compare.cpp
+f:\c-sharp projects\cuda_ps2\cuda_ps2\compare.cpp(1): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+  HW2.cpp
+f:\c-sharp projects\cuda_ps2\cuda_ps2\hw2.cpp(1): fatal error C1083: Cannot open include file: 'opencv2/core/core.hpp': No such file or directory
+  Generating Code...
